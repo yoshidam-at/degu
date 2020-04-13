@@ -6,7 +6,7 @@ project(NONE)
 
 set(DEGU_VERSION_MAJOR "1")
 set(DEGU_VERSION_MINOR "0")
-set(DEGU_VERSION_REVISION "0-rc1")
+set(DEGU_VERSION_REVISION "0-rc2")
 configure_file("$ENV{ZEPHYR_BASE}/../version.h.in" "$ENV{ZEPHYR_BASE}/../version.h")
 
 target_sources(app PRIVATE src/zephyr_start.c src/zephyr_getchar.c src/power.c)
